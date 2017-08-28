@@ -16,5 +16,5 @@ Question...
 
 ## Submitting the assignment
 
-To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the questions.
-Upload the document to Peergrade and include a link to a public repository containing your fork of the completed code.
+To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the questions and a link to a public repository containing your fork of the completed code.
+Upload the document to Peergrade.
