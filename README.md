@@ -1,10 +1,21 @@
 # Assignment #2: Week 36
 
-## Introduction to Software Engineering
+## Software Engineering
 
 ### Exercise 1
+1. Consider your watch (or the watch of a friend of yours that you can inspect) as a system and set the time 2 minutes ahead. Write down each interaction between you and the watch __as a scenario__. Record all interactions, including any feedback the watch provides you.
+2. Consider the scenario you just wrote. 
+    - Identify the actor of the scenario. 
+    - Next, write the corresponding __use case__ SetTime. 
+3. Assume the watch system you described in point 1 and 2 also supports an alarm feature. Describe setting the alarm time as a self-contained __use case__ named SetAlarmTime.
+4. Examine the SetTime and SetAlarmTime use cases you wrote in point 2 and 3. Eliminate any redundancy by using an __include relationship__. 
+5. Why an include relationship is preferable to an extend relationship in point 4?
 
-Question...
+### Exercise 2
+The need for developing a complete specification may encourage an analyst to write detailed and lengthy documents. Which competing quality of specification (see Table 4-1 of the OOSE book) may encourage an analyst to keep the specification short?
+
+### Exercise 3
+Maintaining traceability during requirements and subsequent activities is expensive, because of the addition information that must be captured and maintained. What are the benefits of traceability that outweigh this overhead?  Mention at least 2 points you would consider.
 
 ## C&#35;
 
