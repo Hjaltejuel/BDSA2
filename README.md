@@ -74,6 +74,8 @@ class Iterators
 {
     IEnumerable<string> SplitLine(IEnumerable<string> lines)
 
+    IEnumerable<(int width, int height)> Resolution(string resolutions)
+
     IEnumerable<string> InnerText(string html, string tag)
 }
 ```
@@ -81,7 +83,9 @@ class Iterators
 1. `SplitLine` takes as argument a stream of lines (strings) and returns a stream of the words on those lines (also strings).
 A 'word' is a non-empty contiguous sequence of the letters a–z or A–Z or the digits 0–9. Use a regular expression to split the lines into words.
 
-2. `InnerText` takes as arguments a string containing HTML and a specific tag name. It returns the *inner text* of each of those tags. Use a regular expression with a *back reference* to match tags.
+2. `Resolutions` takes a string containing resolutions. A resolution could be `1920x1080`. It returns a stream of resolutions as tuples, e.g. `(1920, 1080)`. The solution must use *named capture groups* 
+
+3. `InnerText` takes as arguments a string containing HTML and a specific tag name. It returns the *inner text* of each of those tags. Use a regular expression with a *back reference* to match tags.
 
 #### Notes
 You must `yield` elements and not use a temporary in-memory collection. 

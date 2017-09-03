@@ -10,6 +10,11 @@ namespace BDSA2017.Assignment02
             throw new NotImplementedException();
         }
 
+        public static IEnumerable<(int width, int height)> Resolution(string resolutions)
+        {
+            throw new NotImplementedException();
+        }
+
         public static IEnumerable<string> InnerText(string html, string tag)
         {
             throw new NotImplementedException();
