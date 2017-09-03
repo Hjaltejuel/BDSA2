@@ -1,16 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7AA2CE4-5412-4AF2-95FF-77ABA760A1AB}"
 	ProjectSection(SolutionItems) = preProject
+		ANSWERS.md = ANSWERS.md
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDSA2017.Assignment02", "BDSA2017.Assignment02\BDSA2017.Assignment02.csproj", "{03AD63B6-7E4F-4F44-8134-8BA163C60398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Assignment02", "BDSA2017.Assignment02\BDSA2017.Assignment02.csproj", "{03AD63B6-7E4F-4F44-8134-8BA163C60398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDSA2017.Assignment02.Tests", "BDSA2017.Assignment02.Tests\BDSA2017.Assignment02.Tests.csproj", "{A423FB5C-5005-43DD-A6B2-9FC776F6B03E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDSA2017.Assignment02.Tests", "BDSA2017.Assignment02.Tests\BDSA2017.Assignment02.Tests.csproj", "{A423FB5C-5005-43DD-A6B2-9FC776F6B03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
