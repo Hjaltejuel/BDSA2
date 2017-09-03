@@ -36,12 +36,9 @@ Implement and test the latter of the two methods including a type hierarchy whic
 Implement and test the following methods:
 
 ```csharp
-class Iterators
-{
-    IEnumerable<T> Flatten<T>(IEnumerable<IEnumerable<T>> items)
+IEnumerable<T> Flatten<T>(IEnumerable<IEnumerable<T>> items)
 
-    IEnumerable<T> Filter<T>(IEnumerable<T> items, Predicate<T> predicate)
-}
+IEnumerable<T> Filter<T>(IEnumerable<T> items, Predicate<T> predicate)
 ```
 
 1. `Flatten` takes as argument a stream of a stream of `T`'s. It should return a stream of `T`'s.
@@ -70,14 +67,11 @@ public static bool Even(int i)
 Implement and test the following methods:
 
 ```csharp
-class Iterators
-{
-    IEnumerable<string> SplitLine(IEnumerable<string> lines)
+IEnumerable<string> SplitLine(IEnumerable<string> lines)
 
-    IEnumerable<(int width, int height)> Resolution(string resolutions)
+IEnumerable<(int width, int height)> Resolution(string resolutions)
 
-    IEnumerable<string> InnerText(string html, string tag)
-}
+IEnumerable<string> InnerText(string html, string tag)
 ```
 
 1. `SplitLine` takes as argument a stream of lines (strings) and returns a stream of the words on those lines (also strings).
