@@ -31,7 +31,16 @@ namespace BDSA2017.Assignment02
 
         public static IEnumerable<string> InnerText(string html, string tag)
         {
-            throw new NotImplementedException();
+            var filter1 = $@"<\s*({tag}).*?(?<first>>.*?<)\s*\/\s*\1\s*>";
+            var filter2 = @">\s*(?<second>.*?)\s*<";
+            foreach (Match m in Regex.Matches(html,filter1))
+            {
+                foreach (Match k in Regex.Matches(m.Groups["first"].Value, filter2))
+                {
+                    yield return k.Groups["second"].Value;
+                }
+            }
+
         }
     }
 }
