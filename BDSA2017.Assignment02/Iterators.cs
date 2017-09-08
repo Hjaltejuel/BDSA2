@@ -18,12 +18,12 @@ namespace BDSA2017.Assignment02
 
         public static IEnumerable<T> Filter<T>(IEnumerable<T> items, Predicate<T> predicate)
         {
-            foreach(T i in items)
+            foreach (T i in items)
             {
                 if (predicate(i)) { yield return i; }
             }
         }
     }
 
-       
+
 }
